@@ -18,40 +18,37 @@ namespace Entity
         public string IdEmpleado { get; set; }
         public string IdCliente {get; set;}
         public string NroComprobante {get; set;}
-         public DateTime FechaEmision { get; set; }
+        public DateTime FechaEmision { get; set; }
+        public string Codigo { get; set; }
 
-        public decimal Subtotal { get { return detallesFactura.Sum(d => d.ValorsubTotal); } }
+        public decimal Subtotal { get { return detallesFactura.Sum(d => d.ValorTotal); } }
 
         public Cliente Cliente { get; set; }
         public Empleado Empleado { get; set; }
         public string TipoDocumento { get; set; }
        
         public List<DetalleFactura> detallesFactura { get; set; }
-       
-        public Servicio servicio { get; set; }
 
-        public DetalleFactura AgregarDetalleFactura(int idfactura, decimal valorsubTotal)
+        public void AgregarDetalleFactura(DetalleFactura detalleFactura)
         {
-
-            DetalleFactura detalleFactura = new DetalleFactura( idfactura, valorsubTotal);
-            detalleFactura.Factura = this ;
-            Idfactura = idfactura;
-            detallesFactura.Add(detalleFactura);
-            return detalleFactura;
+             detallesFactura.Add(detalleFactura);
         }
    
         public decimal Descuento
 
         {
         
-            get { return detallesFactura.Sum(d => d.ValorDescuento); }
+            get { return detallesFactura.Sum(d => d.Descuento); }
 
         }
 
 
-        public decimal Total {
-            get => Subtotal - Descuento;
-
+        public decimal Total
+        {
+            get
+            {
+                return (Descuento > 0) ? Subtotal - Descuento : Subtotal;
+            }
         }
 
 

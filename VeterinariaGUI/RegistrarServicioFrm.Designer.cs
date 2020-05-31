@@ -42,13 +42,9 @@
             this.NombreTxt = new System.Windows.Forms.TextBox();
             this.ValorTxt = new System.Windows.Forms.TextBox();
             this.DescripcionTxt = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CerrarBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizarBtn)).BeginInit();
@@ -64,7 +60,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(529, 35);
+            this.panel1.Size = new System.Drawing.Size(449, 35);
             this.panel1.TabIndex = 4;
             // 
             // label8
@@ -80,7 +76,7 @@
             // CerrarBtn
             // 
             this.CerrarBtn.Image = ((System.Drawing.Image)(resources.GetObject("CerrarBtn.Image")));
-            this.CerrarBtn.Location = new System.Drawing.Point(461, 7);
+            this.CerrarBtn.Location = new System.Drawing.Point(408, 7);
             this.CerrarBtn.Name = "CerrarBtn";
             this.CerrarBtn.Size = new System.Drawing.Size(25, 25);
             this.CerrarBtn.TabIndex = 5;
@@ -91,7 +87,7 @@
             // 
             this.MinimizarBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MinimizarBtn.Image = ((System.Drawing.Image)(resources.GetObject("MinimizarBtn.Image")));
-            this.MinimizarBtn.Location = new System.Drawing.Point(492, 7);
+            this.MinimizarBtn.Location = new System.Drawing.Point(377, 3);
             this.MinimizarBtn.Name = "MinimizarBtn";
             this.MinimizarBtn.Size = new System.Drawing.Size(25, 25);
             this.MinimizarBtn.TabIndex = 4;
@@ -106,7 +102,7 @@
             this.CancelarCancelarBtn.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelarCancelarBtn.Image = ((System.Drawing.Image)(resources.GetObject("CancelarCancelarBtn.Image")));
             this.CancelarCancelarBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.CancelarCancelarBtn.Location = new System.Drawing.Point(189, 276);
+            this.CancelarCancelarBtn.Location = new System.Drawing.Point(69, 266);
             this.CancelarCancelarBtn.Name = "CancelarCancelarBtn";
             this.CancelarCancelarBtn.Size = new System.Drawing.Size(71, 54);
             this.CancelarCancelarBtn.TabIndex = 36;
@@ -122,7 +118,7 @@
             this.LimpiarServicioBtn.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LimpiarServicioBtn.Image = ((System.Drawing.Image)(resources.GetObject("LimpiarServicioBtn.Image")));
             this.LimpiarServicioBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.LimpiarServicioBtn.Location = new System.Drawing.Point(343, 276);
+            this.LimpiarServicioBtn.Location = new System.Drawing.Point(272, 195);
             this.LimpiarServicioBtn.Name = "LimpiarServicioBtn";
             this.LimpiarServicioBtn.Size = new System.Drawing.Size(69, 54);
             this.LimpiarServicioBtn.TabIndex = 35;
@@ -138,7 +134,7 @@
             this.GuardarServicioBtn.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GuardarServicioBtn.Image = ((System.Drawing.Image)(resources.GetObject("GuardarServicioBtn.Image")));
             this.GuardarServicioBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.GuardarServicioBtn.Location = new System.Drawing.Point(25, 276);
+            this.GuardarServicioBtn.Location = new System.Drawing.Point(69, 195);
             this.GuardarServicioBtn.Name = "GuardarServicioBtn";
             this.GuardarServicioBtn.Size = new System.Drawing.Size(69, 54);
             this.GuardarServicioBtn.TabIndex = 34;
@@ -150,7 +146,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 57);
+            this.label1.Location = new System.Drawing.Point(69, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 14);
             this.label1.TabIndex = 37;
@@ -160,7 +156,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(63, 100);
+            this.label2.Location = new System.Drawing.Point(69, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 14);
             this.label2.TabIndex = 38;
@@ -170,7 +166,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(63, 136);
+            this.label3.Location = new System.Drawing.Point(69, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 14);
             this.label3.TabIndex = 39;
@@ -197,23 +193,6 @@
             this.DescripcionTxt.Size = new System.Drawing.Size(100, 20);
             this.DescripcionTxt.TabIndex = 42;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(63, 207);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(144, 14);
-            this.label5.TabIndex = 45;
-            this.label5.Text = "Porcentaje De Servicio";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(227, 205);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 46;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
@@ -222,7 +201,7 @@
             this.button1.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(112, 276);
+            this.button1.Location = new System.Drawing.Point(163, 195);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 54);
             this.button1.TabIndex = 47;
@@ -238,7 +217,7 @@
             this.button2.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(431, 276);
+            this.button2.Location = new System.Drawing.Point(272, 266);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(71, 54);
             this.button2.TabIndex = 48;
@@ -254,7 +233,7 @@
             this.button3.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(266, 276);
+            this.button3.Location = new System.Drawing.Point(163, 266);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(71, 54);
             this.button3.TabIndex = 49;
@@ -262,36 +241,15 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(227, 165);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 51;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(63, 171);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 14);
-            this.label6.TabIndex = 50;
-            this.label6.Text = "Subtotal";
-            // 
             // RegistrarServicioFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(529, 372);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label6);
+            this.ClientSize = new System.Drawing.Size(449, 355);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.DescripcionTxt);
             this.Controls.Add(this.ValorTxt);
             this.Controls.Add(this.NombreTxt);
@@ -330,12 +288,8 @@
         private System.Windows.Forms.TextBox NombreTxt;
         private System.Windows.Forms.TextBox ValorTxt;
         private System.Windows.Forms.TextBox DescripcionTxt;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
     }
 }

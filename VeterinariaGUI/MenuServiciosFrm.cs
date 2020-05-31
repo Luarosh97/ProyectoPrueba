@@ -26,5 +26,16 @@ namespace VeterinariaGUI
         {
             this.Close();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AgregarServicioBtn_Click(object sender, EventArgs e)
+        {
+            RegistrarServicioFrm registrarServicioFrm = new RegistrarServicioFrm();
+            registrarServicioFrm.Show();
+        }
     }
 }

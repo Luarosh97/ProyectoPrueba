@@ -58,8 +58,13 @@ namespace VeterinariaGUI
 
         private void ServiciosBtn_Click(object sender, EventArgs e)
         {
-            RegistrarServicioFrm registrarServicioFrm = new RegistrarServicioFrm();
-            registrarServicioFrm.Show();
+            MenuServiciosFrm ServicioFrm = new MenuServiciosFrm();
+           ServicioFrm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {   FacturarServiciosFrm FacturarServicioFrm = new FacturarServiciosFrm();
+            FacturarServicioFrm.Show();
         }
     }
 }
