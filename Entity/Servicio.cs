@@ -8,7 +8,7 @@ namespace Entity
 {
     public class Servicio
     {
-       public  int CodigodeServicio {get;set;}
+       public  string CodigodeServicio {get;set;}
        public string NombreServicio {get; set;}
     
        public decimal PrecioServicio {get;set;}
@@ -19,7 +19,7 @@ namespace Entity
 
         }
 
-        public Servicio(int codigoservicio, string nombreservicio, decimal precioServicio)
+        public Servicio(string codigoservicio, string nombreservicio, decimal precioServicio)
         { 
             CodigodeServicio = codigoservicio;
             NombreServicio = nombreservicio;
